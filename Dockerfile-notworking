@@ -1,0 +1,6 @@
+FROM node:16-alpine
+# Adding build tools to make yarn install work on Apple silicon / arm64 machines
+WORKDIR /
+COPY . .
+RUN npm install
+CMD ["node", "index.js"]
