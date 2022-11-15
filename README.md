@@ -18,6 +18,7 @@ I do have a docker file, but that does not work at the moment. When it did work 
 
 # API Endpoints
 Method: POST
+
 Endpoint: `/register`
 
 Body:
@@ -29,6 +30,7 @@ Body:
 ```
 ---
 Method: POST
+
 Endpoint: `/addMessage`
 
 Body:
@@ -40,6 +42,7 @@ Body:
 ```
 ---
 Method: POST
+
 Endpoint: `/getListenersForTopic`
 
 Body:
@@ -50,6 +53,7 @@ Body:
 ```
 ---
 Method: GET 
+
 Endpoint: `/getAllMessages`
 
 # A few notes
