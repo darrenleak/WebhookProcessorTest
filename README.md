@@ -14,6 +14,13 @@ And once everything is installed:
 node app.js
 ```
 
+You will also need to start the Blackhole server
+```
+node Blackhole.js
+```
+
+The blackhole server is exactly what it says it is. It just consumes data and does nothing with it.
+
 I do have a docker file, but that does not work at the moment. When it did work it was mainly used to simulate slower cpu performance.
 
 # API Endpoints
