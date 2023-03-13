@@ -9,7 +9,7 @@ class Publisher {
   requestOptions = {}
 
   constructor(requestOptions = defaultOptions) {
-    console.log('Init Publisher')
+    console.log('Init Publisher ')
     this.requestOptions = requestOptions
   }
 
